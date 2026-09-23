@@ -1,0 +1,15 @@
+{
+  "name": "watch",
+  "metadata": { "description": "Lets Claude watch videos and call recordings: frames + local transcript + speaker labels, then a structured breakdown." },
+  "owner": { "name": "Victor Shulga", "url": "https://github.com/victor-shulga" },
+  "plugins": [
+    {
+      "name": "watch",
+      "source": "./",
+      "description": "Turns any video or call recording into frames, contact sheets and a local transcript Claude can read, then writes a breakdown (hook, timeline, on-screen text, CTA; or decisions, next steps and objections for calls).",
+      "version": "0.1.0",
+      "keywords": ["video", "transcription", "call-recording"],
+      "author": { "name": "Victor Shulga" }
+    }
+  ]
+}

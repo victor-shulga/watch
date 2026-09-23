@@ -1,0 +1,9 @@
+{
+  "name": "watch",
+  "version": "0.1.0",
+  "description": "Lets Claude watch a video or a call recording: YouTube, TikTok, Instagram Reels, LinkedIn, X, local files, Zoom/Meet/Loom calls. Samples frames into contact sheets, transcribes speech locally (faster-whisper, no API key), labels speakers on calls, then Claude writes a structured breakdown: hook, timeline, on-screen text, CTA, or decisions and objections for calls.",
+  "author": { "name": "Victor Shulga", "url": "https://github.com/victor-shulga" },
+  "keywords": ["video", "transcription", "whisper", "tiktok", "youtube", "reels", "call-recording", "diarization"],
+  "license": "MIT",
+  "skills": "./skills/"
+}
