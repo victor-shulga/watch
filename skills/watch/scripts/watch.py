@@ -1,8 +1,9 @@
 #!/usr/bin/env -S uv run --quiet --script
 # /// script
 # requires-python = ">=3.10"
-# dependencies = ["yt-dlp", "imageio-ffmpeg", "faster-whisper", "sherpa-onnx", "numpy"]
+# dependencies = ["yt-dlp", "imageio-ffmpeg", "faster-whisper", "av<17", "sherpa-onnx", "numpy"]
 # ///
+# av<17: PyAV 19 dropped open(metadata_errors=...), faster-whisper 1.2.1 still passes it -> every transcript came back empty
 """watch: turn a video (URL or local file) into frames + contact sheets + transcript for Claude.
 
 Usage: uv run watch.py <url|file> [--out DIR] [--max-frames 36] [--model small] [--lang uk] [--no-transcript]
